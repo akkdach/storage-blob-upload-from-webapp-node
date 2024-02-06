@@ -9,7 +9,6 @@ const index = require('./routes/index');
 const upload = require('./routes/upload');
 
 const app = express();
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
